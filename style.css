@@ -1,0 +1,32 @@
+h2{
+    text-align: center;
+}
+#container
+{
+    margin-left: 40%;
+    margin-bottom: 7%;
+    margin-top:  5%;
+}
+#storing
+{
+    margin-top: 1%;
+    margin-left: 28%;
+}
+.rd th
+{
+    padding-left: 20px ;
+    padding-right: 20px ;
+    border-style: double;
+    border-width:1px;
+    border-color:blue ;
+}
+#storing td{
+    padding-left: 20px ;
+    padding-right: 20px ;
+    border-style: double;
+    border-width:1px;
+    border-color:blue ;
+}
+#container td{
+    padding-bottom: 10px;
+}

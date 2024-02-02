@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>STUDENT FORM</h2>
+     <div id="container" >
+        <form id="myform">
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input id="one" type="text" ></td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td><input id="three"type="number"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <div id="rd"><input id="four" type="radio" name="gender" value="Male" checked>Male</input>
+                <input id="five" type="radio" name="gender" value="Female">Female</input></td></div>
+            </tr>
+            <td>Course</td>
+            <td><select id="six">
+                <option>Java</option>
+                <option>Javascript</option>
+                <option>Python</option>
+            </select></td>
+            <tr>
+            <td>Email</td>
+            <td><input id="seven" type="email"></td>
+            </tr>
+        </table>
+    </form>
+        <button onclick="saving()">Save</button>
+     </div>
+    
+     
+     <hr> </hr>
+     <div class="rd">
+        <table id="storing">
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>Course</th>
+        <th>E-mail</th>
+        <th>Action</th>
+        </table>
+     </div>
+    </div>
+    <script src="hello.js"></script>
+</body>
+</html>
